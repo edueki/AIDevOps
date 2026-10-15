@@ -1,0 +1,39 @@
+# ---------------------------------------------------------------
+# 1. Hidden files and folders (anything starting with a dot)
+#    .venv/  .idea/  .ipynb_checkpoints/  .DS_Store  .env  ...
+# ---------------------------------------------------------------
+.*
+
+# ...except the few dot-files that SHOULD be in git
+!.gitignore
+!.gitattributes
+!.env.example
+
+# ---------------------------------------------------------------
+# 2. Model artifacts and other generated binaries
+#    (students create these by running the notebooks)
+# ---------------------------------------------------------------
+*.pkl
+*.pickle
+*.joblib
+*.pth
+*.pt
+*.h5
+*.onnx
+*.safetensors
+
+# ---------------------------------------------------------------
+# 3. Python build files and virtual environments
+#    (venv folders without a leading dot, plus compiled files)
+# ---------------------------------------------------------------
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# ---------------------------------------------------------------
+# 4. Editor / OS leftovers
+# ---------------------------------------------------------------
+Thumbs.db
+*.swp
