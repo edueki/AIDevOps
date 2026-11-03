@@ -1,0 +1,226 @@
+label,text
+network,NetworkPolicy denies traffic from cart to auth
+access,kubectl unauthorized: credentials rejected by the API server
+access,login failed for svc-ci: too many attempts
+deployment,ArgoCD application checkout is OutOfSync after merge to main
+resource,ephemeral storage limit exceeded by auth
+deployment,pipeline failed at the deploy stage for auth v1.9.0
+access,"SSO session expired for svc-ci, cannot assume role"
+network,NetworkPolicy denies traffic from search to auth
+resource,CPU throttling on inventory at 45 percent utilization
+deployment,pipeline failed at the deploy stage for payments v1.9.0
+resource,ephemeral storage limit exceeded by cart
+database,"users-db storage 95 percent full, writes failing"
+resource,CPU throttling on search at 90 percent utilization
+database,connection pool exhausted on orders-db
+network,DNS lookup failed for inventory.prod.svc.cluster.local
+deployment,pipeline failed at the deploy stage for payments latest
+resource,node ip-10-0-4-87 NotReady: disk pressure
+access,AccessDenied calling s3:GetObject with role ci-runner
+access,expired token for service account reporter
+resource,node ip-10-0-1-23 NotReady: disk pressure
+network,NetworkPolicy denies traffic from search to inventory
+network,connection timed out to 10.0.3.17:8080
+database,deadlock detected in orders-db transaction
+resource,node ip-10-0-4-87 NotReady: disk pressure
+database,deadlock detected in orders-db transaction
+deployment,helm upgrade payments failed: timed out waiting for the condition
+network,DNS lookup failed for auth.prod.svc.cluster.local
+resource,"container inventory OOMKilled, memory limit 500Mi reached"
+deployment,terraform apply failed: error creating resource for auth
+deployment,ArgoCD application auth is OutOfSync after merge to main
+access,login failed for alice: too many attempts
+access,IAM role etl-job missing permission ecr:GetAuthorizationToken
+deployment,helm upgrade inventory failed: timed out waiting for the condition
+access,AccessDenied calling s3:GetObject with role ci-runner
+database,query timeout while reading from orders-db
+access,IAM role app-reader missing permission ecr:GetAuthorizationToken
+database,too many connections to ledger-db
+database,failed to acquire lock on orders-db migration
+network,load balancer health checks failing for auth
+network,load balancer health checks failing for auth
+resource,PersistentVolumeClaim pending: no storage available
+deployment,ArgoCD application checkout is OutOfSync after merge to main
+network,high packet loss between zones affecting auth
+network,502 Bad Gateway returned by the ingress for auth
+access,AccessDenied calling s3:GetObject with role ci-runner
+resource,"container cart OOMKilled, memory limit 300Mi reached"
+network,502 Bad Gateway returned by the ingress for inventory
+network,load balancer health checks failing for inventory
+network,connection timed out to 10.0.8.42:8080
+access,kubectl unauthorized: credentials rejected by the API server
+access,vault denied read on secret path for cart
+access,"SSO session expired for svc-ci, cannot assume role"
+network,502 Bad Gateway returned by the ingress for checkout
+deployment,ImagePullBackOff for inventory: image tag v1.9.0 not found in registry
+resource,node ip-10-0-1-23 NotReady: disk pressure
+deployment,terraform apply failed: error creating resource for auth
+access,IAM role etl-job missing permission ecr:GetAuthorizationToken
+resource,"cluster autoscaler cannot add nodes, quota exceeded"
+network,502 Bad Gateway returned by the ingress for search
+resource,node ip-10-0-4-87 NotReady: disk pressure
+deployment,ImagePullBackOff for cart: image tag v1.9.0 not found in registry
+access,kubectl unauthorized: credentials rejected by the API server
+network,TLS handshake error: certificate expired for api.acme.io
+deployment,ImagePullBackOff for search: image tag v2.4.1 not found in registry
+access,kubectl unauthorized: credentials rejected by the API server
+resource,ephemeral storage limit exceeded by checkout
+database,connection pool exhausted on ledger-db
+deployment,terraform apply failed: error creating resource for inventory
+access,vault denied read on secret path for search
+resource,pod inventory evicted due to node memory pressure
+deployment,helm upgrade search failed: timed out waiting for the condition
+resource,pod payments evicted due to node memory pressure
+deployment,ArgoCD application cart is OutOfSync after merge to main
+database,connection pool exhausted on orders-db
+database,query timeout while reading from orders-db
+resource,HPA for inventory at max replicas but latency still rising
+deployment,ImagePullBackOff for auth: image tag latest not found in registry
+access,vault denied read on secret path for payments
+database,too many connections to orders-db
+database,too many connections to orders-db
+resource,pod payments evicted due to node memory pressure
+resource,"container checkout OOMKilled, memory limit 3000Mi reached"
+database,query timeout while reading from users-db
+access,vault denied read on secret path for checkout
+deployment,terraform apply failed: error creating resource for inventory
+network,TLS handshake error: certificate expired for shop.acme.io
+network,load balancer health checks failing for payments
+resource,HPA for payments at max replicas but latency still rising
+deployment,rollout of payments stuck at 3/10 pods after release latest
+database,query timeout while reading from users-db
+network,high packet loss between zones affecting search
+resource,pod payments evicted due to node memory pressure
+deployment,helm upgrade auth failed: timed out waiting for the condition
+resource,PersistentVolumeClaim pending: no storage available
+network,connection timed out to 10.0.3.17:5432
+deployment,"canary for search v2.4.1 failed health checks, rollback needed"
+resource,"container auth OOMKilled, memory limit 800Mi reached"
+network,DNS lookup failed for inventory.prod.svc.cluster.local
+resource,"container cart OOMKilled, memory limit 1200Mi reached"
+deployment,"canary for auth v1.9.0 failed health checks, rollback needed"
+database,too many connections to users-db
+access,login failed for alice: too many attempts
+deployment,ArgoCD application checkout is OutOfSync after merge to main
+access,expired token for service account reporter
+access,AccessDenied calling s3:GetObject with role etl-job
+database,failed to acquire lock on ledger-db migration
+access,AccessDenied calling s3:GetObject with role app-reader
+network,load balancer health checks failing for inventory
+network,NetworkPolicy denies traffic from payments to inventory
+resource,PersistentVolumeClaim pending: no storage available
+resource,CPU throttling on auth at 3 percent utilization
+database,query timeout while reading from orders-db
+network,high packet loss between zones affecting search
+access,vault denied read on secret path for payments
+database,connection pool exhausted on users-db
+database,deadlock detected in users-db transaction
+deployment,pipeline failed at the deploy stage for inventory v1.9.0
+database,connection pool exhausted on users-db
+deployment,rollout of search stuck at 45/6 pods after release latest
+deployment,ImagePullBackOff for auth: image tag v2.4.1 not found in registry
+access,"SSO session expired for alice, cannot assume role"
+database,connection pool exhausted on orders-db
+database,deadlock detected in orders-db transaction
+access,"SSO session expired for svc-ci, cannot assume role"
+access,IAM role ci-runner missing permission ecr:GetAuthorizationToken
+deployment,cart pods in CrashLoopBackOff right after deploying v2.4.1
+database,"users-db storage 95 percent full, writes failing"
+deployment,terraform apply failed: error creating resource for payments
+resource,node ip-10-0-4-87 NotReady: disk pressure
+database,too many connections to ledger-db
+network,NetworkPolicy denies traffic from payments to inventory
+access,expired token for service account reporter
+access,IAM role etl-job missing permission ecr:GetAuthorizationToken
+deployment,payments pods in CrashLoopBackOff right after deploying latest
+network,connection timed out to 172.16.4.9:8080
+network,502 Bad Gateway returned by the ingress for search
+resource,node ip-10-0-4-87 NotReady: disk pressure
+database,connection pool exhausted on users-db
+deployment,ArgoCD application payments is OutOfSync after merge to main
+resource,"cluster autoscaler cannot add nodes, quota exceeded"
+database,slow query took 45 seconds on orders-db
+database,deadlock detected in ledger-db transaction
+database,connection pool exhausted on orders-db
+resource,PersistentVolumeClaim pending: no storage available
+database,replication lag of 5 seconds on ledger-db replica
+access,IAM role ci-runner missing permission ecr:GetAuthorizationToken
+database,too many connections to users-db
+deployment,ArgoCD application cart is OutOfSync after merge to main
+deployment,rollout of search stuck at 12/6 pods after release v3.0.2
+database,query timeout while reading from orders-db
+network,security group blocks port 5432 between search and users-db
+network,connection timed out to 172.16.4.9:443
+access,vault denied read on secret path for cart
+network,DNS lookup failed for inventory.prod.svc.cluster.local
+network,TLS handshake error: certificate expired for api.acme.io
+access,AccessDenied calling s3:GetObject with role ci-runner
+resource,"cluster autoscaler cannot add nodes, quota exceeded"
+resource,"cluster autoscaler cannot add nodes, quota exceeded"
+resource,ephemeral storage limit exceeded by auth
+access,login failed for bob: too many attempts
+network,security group blocks port 5432 between search and orders-db
+database,connection pool exhausted on orders-db
+access,AccessDenied calling s3:GetObject with role ci-runner
+database,query timeout while reading from users-db
+database,too many connections to ledger-db
+network,connection timed out to 10.0.8.42:443
+database,query timeout while reading from users-db
+database,connection pool exhausted on ledger-db
+resource,CPU throttling on search at 3 percent utilization
+resource,pod auth evicted due to node memory pressure
+resource,CPU throttling on checkout at 8 percent utilization
+access,expired token for service account deployer
+network,connection timed out to 10.0.8.42:8080
+database,failed to acquire lock on orders-db migration
+access,login failed for bob: too many attempts
+database,slow query took 5 seconds on orders-db
+deployment,ArgoCD application checkout is OutOfSync after merge to main
+deployment,auth pods in CrashLoopBackOff right after deploying v2.4.1
+deployment,helm upgrade search failed: timed out waiting for the condition
+access,expired token for service account deployer
+network,DNS lookup failed for payments.prod.svc.cluster.local
+deployment,ImagePullBackOff for search: image tag v2.4.1 not found in registry
+resource,node ip-10-0-4-87 NotReady: disk pressure
+access,kubectl unauthorized: credentials rejected by the API server
+network,DNS lookup failed for auth.prod.svc.cluster.local
+database,replication lag of 5 seconds on orders-db replica
+deployment,"canary for checkout v2.4.1 failed health checks, rollback needed"
+deployment,auth pods in CrashLoopBackOff right after deploying v2.4.1
+network,NetworkPolicy denies traffic from payments to auth
+network,TLS handshake error: certificate expired for api.acme.io
+network,DNS lookup failed for payments.prod.svc.cluster.local
+access,IAM role ci-runner missing permission ecr:GetAuthorizationToken
+deployment,terraform apply failed: error creating resource for search
+database,slow query took 30 seconds on users-db
+network,connection timed out to 10.0.3.17:8080
+database,deadlock detected in users-db transaction
+access,vault denied read on secret path for cart
+resource,pod cart evicted due to node memory pressure
+network,security group blocks port 8080 between auth and orders-db
+network,DNS lookup failed for auth.prod.svc.cluster.local
+access,IAM role ci-runner missing permission ecr:GetAuthorizationToken
+database,"orders-db storage 95 percent full, writes failing"
+deployment,helm upgrade checkout failed: timed out waiting for the condition
+network,connection timed out to 172.16.4.9:443
+resource,pod inventory evicted due to node memory pressure
+access,vault denied read on secret path for inventory
+deployment,"canary for payments v1.9.0 failed health checks, rollback needed"
+resource,"cluster autoscaler cannot add nodes, quota exceeded"
+deployment,"canary for inventory latest failed health checks, rollback needed"
+network,high packet loss between zones affecting search
+resource,node ip-10-0-4-87 NotReady: disk pressure
+network,high packet loss between zones affecting search
+resource,PersistentVolumeClaim pending: no storage available
+resource,node ip-10-0-1-23 NotReady: disk pressure
+deployment,ArgoCD application cart is OutOfSync after merge to main
+database,slow query took 12 seconds on users-db
+deployment,rollout of auth stuck at 12/10 pods after release v3.0.2
+access,vault denied read on secret path for inventory
+deployment,rollout of search stuck at 3/6 pods after release v2.4.1
+database,connection pool exhausted on ledger-db
+access,AccessDenied calling s3:GetObject with role ci-runner
+resource,"cluster autoscaler cannot add nodes, quota exceeded"
+resource,"container checkout OOMKilled, memory limit 3000Mi reached"
+database,failed to acquire lock on ledger-db migration
+access,vault denied read on secret path for auth
