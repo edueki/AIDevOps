@@ -1,0 +1,13 @@
+ticket_id,ticket_no,type,title
+cacf1f36-fbdf-4917-8426-92f104eb7024,INC0020001,Incident,Customer portal shows blank page after the latest release
+244d26eb-6207-4bb9-a892-30051bf9be1a,INC0020004,Incident,Oracle listener not accepting connections on orders cluster
+943c884f-70c9-4a2d-840e-fe265a8943b7,INC0020006,Incident,Veeam job skipped for file server last night
+07e25a26-1fd9-4470-a318-d612270c758b,INC0020008,Incident,Switch port flapping in rack 12 causing packet loss
+bbf85b47-c70c-45c2-b465-a9fc8c90d8e1,REQ0020009,Request,Please create a read-only account on the reporting DB for an analyst
+912af4ab-e379-41a0-b9d4-44c857c08815,INC0020011,Incident,Unable to restore payroll data from Monday snapshot
+d8f97e5d-b0b5-49d6-bb93-90cffbc4ecd6,INC0020013,Incident,Checkout API p95 latency doubled since config change
+65ef8d39-e3f9-45c7-bac4-05522b748e27,INC0020014,Incident,Replica lagging 40 minutes behind the primary
+496756da-d2cc-4350-be13-6959a9638256,INC0020015,Incident,"Node ran out of inodes, pods are being evicted"
+14951eab-ca19-42df-9c74-86719c53cfe1,REQ0020018,Request,Need a new VM for load testing the search service
+95b51368-720a-49dc-bae2-841dace5dcd2,INC0020021,Incident,Nightly dump of CRM database exceeded the backup window
+05c4f216-70ac-4edc-8afc-b0a3b6ef4a7c,INC0020022,Incident,Users getting 403 after SSO update on HR portal
