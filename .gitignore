@@ -21,6 +21,7 @@
 *.h5
 *.onnx
 *.safetensors
+*.chroma_db/
 
 # ---------------------------------------------------------------
 # 3. Python build files and virtual environments
