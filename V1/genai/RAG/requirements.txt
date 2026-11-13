@@ -1,0 +1,7 @@
+chromadb
+langchain-text-splitters
+fastapi
+uvicorn
+openai
+python-dotenv
+requests
