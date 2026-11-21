@@ -1,0 +1,6 @@
+kubernetes
+fastapi
+uvicorn
+mcp>=2,<3
+anthropic
+dotenv
