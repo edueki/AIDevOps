@@ -1,0 +1,7 @@
+kubernetes
+fastapi
+uvicorn
+mcp>=2,<3
+groq
+dotenv
+streamlit
